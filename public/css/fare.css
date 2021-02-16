@@ -1,0 +1,99 @@
+.bg-farie
+{
+    background: url('../img/bg-farie.jpg');
+    height: 75px;
+}
+.eshterak img
+{
+    width: 16px;
+    height: 16px;
+    margin: 0 2px;
+    margin-top: 2px;
+}
+.like-user img
+{
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+}
+.etelaate-dioreh img
+{
+    width: 30px;
+}
+.lin
+{
+    line-height: 0px;
+}
+.lin-8
+{
+    line-height: 8px;
+}
+.bor-4
+{
+    border-radius: 10px;
+}
+.bor-2
+{
+    border-radius: 5px;
+}
+.bg-jharid
+{
+    background-color: yellowgreen;
+}
+.doc-btn
+{
+    border: none;
+    background: none;
+    font-size: 12.5px;
+}
+.gainsboro
+{
+    color: #a1a1a1;
+}
+.bg-hed
+{
+    color: #48d1f3;
+}
+.bg-hed-bk
+{
+    background-color: #48d1f3;
+}
+.dir
+{
+    direction: rtl;
+}
+.bor-r-6
+{
+    width: 30px;
+    height: 30px;
+    border: 3px solid #a1a1a1;
+    border-radius: 50%;
+}
+.head-doaw
+{
+    height: 40px;
+}
+.bor-none
+{
+    border: none;
+}
+.bor-none-2
+{
+    border: none;
+    border-bottom: 2px solid #a1a1a1;
+}
+.submit-user
+{
+    background: none;
+    border: 2px solid #48d1f3;
+    padding: 10px;
+}
+.submit-user:hover
+{
+    background: #48d1f3;
+    color: white;
+}
+.bg-doreh
+{
+    color: springgreen;
+}

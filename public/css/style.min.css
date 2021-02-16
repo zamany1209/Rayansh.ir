@@ -1,0 +1,57 @@
+body {background: whitesmoke;}#s {color: white;}.shawod-hover:hover{box-shadow:none!important;transition: 0.5s;}
+@font-face {font-family: tanha;src: url(../Font/Tanha.ttf);}@font-face {font-family: zamany;src: url(../Font/rayansh.ttf);}.zamany{font-family: zamany;}.dir_rtl{direction: rtl;}
+h5, p, a, h1, h2, h3, h3, h4, textarea, button, input[type=email], input[type=submit], input[type=button] {font-family: tanha;}
+.bg-raya {background-image: linear-gradient(to left bottom, #00d2f7, #04e9a7);}.tanha {font-family: tanha;}.font-sm {font-size: 12px;}.font-vm {font-size: 14px;}.font-bm {font-size: 23px;}
+.backerane-header {background-image: url('../img/bak.jpg');height: 350px;background-size: cover;position: relative;}
+.backerane-header-2 {height: 70px;position: relative;}.z_in_99{z-index: 9999;}
+.bg_Abute_Rayansh_ir{height: 620px;position: relative;}
+.bg_abut{background-color: #e6ecee;}
+.rayaneshe {position: absolute;font-family: tanha;z-index: 99;margin-bottom: 95px;}
+.rayaneshe h2 span {color: aquamarine;}
+.grop-cape {margin: auto auto auto auto;display: block;}.cape {width: 85%;height: 120px;}
+.form-serch {background-image: linear-gradient(to right top, #1bbff6, #04e9a7);margin: auto auto auto auto;padding: 14px;border-radius: 4px;z-index: 99;}
+.form-serch input {border-radius: 5px;margin: 3px;border: none;text-align: center;}
+.form-serch input[type=search] {height: 28px;background: white;}
+.form-serch input[type=submit] {padding-top: 0px;padding-bottom: 28px;height: 8px;}
+.con-center {margin: auto;}.elaneyeh {text-align: center;margin: 4% auto;}
+.elaneyeh img {height: 100px;}.ko-cvx {text-align: center;margin: auto auto;}
+.mod-cvx {background: white;border-radius: 3px;box-shadow: black;}
+.mod-cvx img {width: 101%;text-align: center;margin-top: 3%;}.mod-cvx p a {color: #04e9a7;text-decoration: none;}
+.mod-cvx p a:hover {color: #07b684;}.mod-cvx .acte {color: #1cdfa1;}
+.mod-cvx hr {height: 1px;background: #a3a3a3;}.font-cm {font-size: 11.5px;}.font-cmcm {font-size: 11px;}.font-smsm {font-size: 10.5px;}.font-smsd {font-size: 10px;}
+.mod-cvx .acte img {border-radius: 50%;height: 25px;width: 25px;}
+.mod-cvx .poro img {border-radius: 50%;height: 20px;}.comnter-foloo {height: 35px;margin-top: 2%;}
+.comnter-foloo img {height: 16.5px;width: 16.5px;float: left;}
+.comnter-folooo {height: 35px;direction: ltr;}
+.comnter-folooo img {height: 16.5px;width: 16.5px;margin: 0 2px;}
+.comnter-folooo a {margin: 0 6px 0 0;}.absolut {position: absolute;}
+.filter-btn {border: none;background: none;width: 100%;}
+#mixcontainer .mix {display: none;}button.active {padding: 10px;}
+.recentcomments a {display: inline !important;padding: 0 !important;margin: 0 !important;}.nav-border {border-radius: 5px;}.rah-ertebat {background-image: url('../img/rah-ertebat.JPG');background-size: cover;}
+.filter-rah-ertebat {opacity: 1;height: 250px;}
+.form-ertebat input[type=submit] {background: #000000;padding: 7px 25px;border-radius: 4px 0 0 4px;float: left;border: none;}
+.form-ertebat input[type=email] {padding: 10.5px 20px;border-radius: 0 4px 4px 0;float: left;border: none;}
+.filter-rah-ertebat .form-ertebat .form-email {position: absolute;margin: 95px auto;}.z-99{z-index: 99;}.z-88{z-index: 88;}
+.pading-top-2{padding-top: 20px;}.bg-hed-bk{background-color: #48d1f3;}.bor-2{border-radius: 5px;}
+.bor-none-le
+{
+    border: none;
+    border-left: 1px solid #a1a1a1;
+    border-top:  2px solid #a1a1a1;
+
+}
+.bor-none-ri
+{
+    border: none;
+    border-right: 1px solid #a1a1a1;
+    border-top:  2px solid #a1a1a1;
+}
+.tech_panel
+{
+    background: linear-gradient(#61c4eb 0% , #04e9a7 50% ,#ffffff 50% , #ffffff 100%);
+}.bg-re{background-color: red;}
+.bg-sa-k{background-color: #90db3b;}
+.bg-sa-p{background-color: #07b684;}
+.txt_li{
+    text-decoration: none;
+}

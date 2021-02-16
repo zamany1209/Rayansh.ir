@@ -1,0 +1,106 @@
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+  }
+  
+  .owl-carousel {
+	display: none;
+	position: relative;
+	width: 100%;
+  }
+  
+  .owl-carousel .owl-wrapper {
+	display: none;
+	position: relative;
+  }
+  
+  .owl-carousel .owl-wrapper-outer {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+  }
+  
+  .owl-carousel .owl-wrapper-outer.autoHeight {
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+  }
+  
+  .owl-carousel .owl-item {
+	float: left;
+  }
+  
+  .owl-controls .owl-page,
+  .owl-controls .owl-buttons div {
+	cursor: pointer;
+  }
+  
+  .owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  .grabbing {
+	cursor: url(grabbing.png) 8 8, move;
+  }
+  
+  #s {
+	font-size: 15px;
+  }
+  
+  .card {
+	float: left;
+	margin-top: 15px;
+  }
+  
+  #card {
+	float: left;
+  }
+  
+  .card-title {
+	text-align: center;
+  }
+  
+  .btn {
+	text-align: center;
+  }
+  
+  .card-text {
+	text-align: right;
+	font-size: 17px;
+  }
+  
+  .item {
+	float: left;
+  }
+  .speakers-thumb button
+  {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 20px;
+  }
+  .speakers-thumb button:hover
+  {
+    background: #4946f1;
+    color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25) !important;
+  }
+  .speakers-wrapper img
+  {
+    transition: 1s;
+  }
+  .speakers-wrapper img:hover
+  {
+    padding:20px 20px 0px 20px;
+  }

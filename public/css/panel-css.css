@@ -1,0 +1,12 @@
+@keyframes bar-fill {0% {width: 0;}}
+@-webkit-keyframes bar-fill {0% {width: 0;}}
+@-moz-keyframes bar-fill {0% {width: 0;}}
+@-o-keyframes bar-fill {0% {width: 0;}}
+.bar-graph {list-style: none;margin: 50px 0px auto;}
+.bar-wrap {-moz-border-radius: 10px 10px 10px 10px;-webkit-border-radius: 10px 10px 10px 10px;-ms-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;background-color: rgba(0, 155, 202, 0.2);border: 1px solid rgba(0, 155, 202, 0.8);margin-bottom: 10px;}
+.bar-fill {-moz-border-radius: 10px 10px 10px 10px;-webkit-border-radius: 10px 10px 10px 10px;-ms-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;-moz-animation: bar-fill 1s;-webkit-animation: bar-fill 1s;-ms-animation: bar-fill 1s;animation: bar-fill 1s;background-color: #009bca;display: block;height: 15px;width: 0px;}
+.bar-graph li p {color: #009bca;font-family: 'Helvetica';font-size: 16px;font-weight: 100;text-transform: uppercase;}
+.bg-headers
+{
+    background: #afaeae;
+}

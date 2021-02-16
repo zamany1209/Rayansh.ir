@@ -1,0 +1,89 @@
+#s, #navbarDropdown, #navbarDropdownMenuLink {color: #ffffff;font-size: 12.8px;}
+.col-lg-14 {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;position: relative;width: 100%;padding-right: 15px;padding-left: 15px;}
+.navbar {z-index: 99;}.tanha {font-family: tanha;direction: rtl;}
+.tanha-14 {font-size: 12px;}.smskww #img {position: absolute;background-size: cover;z-index: 99;}.text-blou {color: #0013BD;}.text-blouer {color: #00a7bd;}.sekwer {background: url('../img/banner1.jpg') 50% 0 repeat-y fixed;background-size: cover;}
+.sekwer .card {background: none;}.text-whate {color: #f7f0f0;font-family: tanha;}
+.mase {border: none;}
+.text-kerme {background: #f0f0f0;}
+.text-foter ul li {list-style: none;direction: rtl;text-align: center;color: white;padding: 7px 0;}
+.text-20 {font-size: 20px;}
+.text-foter {background: #100977;font-family: tanha;position: relative;}
+.img-foter {position: absolute;margin-top: -5%;width: 98.89%;background-size: cover;}
+/*=======================================================================
+ =========================================================================*/
+#content_top {padding: 40px 0 5px;margin-bottom: 40px;border-bottom: 4px solid #0059CC;border-bottom-width: 24px;margin-bottom: 2%;}
+/*=======================================================================
+[4] Section Heading  Styles
+=========================================================================*/
+.section-heading {text-align: center;margin-bottom: 6rem;}
+.section-heading h2 {font-weight: 600;font-size: 46px;color: #000000;}
+@media only screen and (max-width: 991px) {.section-heading h2 {font-size: 32px;}}
+@media only screen and (max-width: 767px) {.section-heading h2 {font-size: 28px;}}
+@media only screen and (max-width: 575px) {.section-heading h2 {font-size: 26px;}}
+.section-heading .item-subtitle {font-weight: 600;color: #646464;font-size: 24px;margin-bottom: 10px;}
+/*=======================================================================
+[5] Button Styles
+=========================================================================*/
+.buy-btn {font-size: 18px;color: #000000;background-color: #001157;}
+/*=======================================================================
+[6] Header Styles
+=========================================================================*/
+header {padding: 10px 0;position: absolute;top: 0;left: 0;right: 0;-webkit-transition: all 0.5s ease-out;-moz-transition: all 0.5s ease-out;-o-transition: all 0.5s ease-out;transition: all 0.5s ease-out;}
+@media only screen and (max-width: 767px) {header {text-align: center;}}
+header .row {display: flex;align-items: center;}
+@media only screen and (max-width: 767px) {header .row {display: block;}}
+header .header-btn {display: flex;align-items: center;justify-content: flex-end;}
+@media only screen and (max-width: 767px) {header .header-btn {justify-content: center;margin-top: 20px;}}
+.rt-sticky {padding: 3px 0;position: fixed;top: 0;width: 100%;z-index: 9999999;left: 0;right: 0;background-image: linear-gradient(to right top, #6186eb, #04e9a7);}
+/*================================================
+دکمه منو
+================================================*/
+.navigationn {position: relative;display: flex;padding: 20px;width: 40%;justify-content: center;align-items: center;background: #fff;transition: 0.5s;border-radius: 100px;overflow: hidden;box-shadow: 0 5px 50px rgba(0, 0, 0, 2);}
+.menu {width: 10px;margin: 0;padding: 0;display: flex;overflow: hidden;transition: 0.5s;}
+.navigationn input:checked~.menu {width: 400px;}
+.menu li {list-style: none;margin: 0 10px;}
+.menu li a {text-decoration: none;text-transform: uppercase;font-weight: 600;color: #000;transition: 0.5s;}
+.menu li a:hover {color: orangered;}
+.navigationn input {height: 40px;width: 450px;cursor: pointer;opacity: 0;}
+.navigationn span {position: absolute;left: 28px;height: 4px;width: 32px;background: #666;pointer-events: none;transition: 0.5s;}
+.navigationn input:checked~span {background: #f974a1;}
+.navigationn span:nth-child(2) {transform: translateY(-8px);}
+.navigationn input:checked~span:nth-child(2) {transform: translateY(0) rotate(45deg);}
+.navigationn span:nth-child(3) {transform: translateY(8px);}
+.navigationn input:checked~span:nth-child(3) {transform: translateY(0) rotate(-45deg);}
+.navigationn input:checked~span:nth-child(4) {opacity: 0;}
+/*=================================================================================
+=================================================================================*/
+/*------------------- 5.10 Service -------------------*/
+.service-box-layout7 {background-color: #ffffff;box-shadow: 0px 2px 10px 0px #cfe0ea;padding: 50px 40px;border-radius: 4px;margin-bottom: 30px;position: relative;}
+.service-box-layout7 .item-icon {position: relative;margin-bottom: 60px;z-index: 2;}
+.service-box-layout7 .item-icon i {display: inline-block;line-height: 1;margin: 22px 22px 0 0;}
+.service-box-layout7 .item-icon i:before {font-size: 65px;color: #001ea2;}
+.service-box-layout7 .item-icon .icon-bg {position: absolute;top: 0;right: 0;height: 90px;width: 90px;z-index: -1;}
+@media only screen and (max-width: 991px) {.service-box-layout7 .item-icon .icon-bg {left: 50%;transform: translateX(-50%);}}
+.service-box-layout7 .item-content .item-title {font-weight: 600;margin-bottom: 14px;}
+.service-box-layout7 .item-content .item-title a {color: #111111;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+/************************************
+              About
+************************************/
+#author {width: 960px;margin: 150px auto 50px;}
+#author h2 {font-size: 20px;margin: 15px 0;color: #fff;}
+#author .socialMedia {position: absolute;top: 165px;right: 40px;}
+#author .socialMedia img {margin-right: 5px;}
+#author h3 {color: #525252;font-weight: normal;font-size: 14px;}
+#author ul#team {list-style: none;margin: 10px 0 0 0;padding: 0;}
+#author ul#team li {background: url(../img/team_img_bg.png) no-repeat;height: 300px;width: 228px;margin: 0 5px;float: left;text-align: center;color: #cbcbcb;}
+#author ul#team li .member_img {width: 210px;height: 121px;margin: 6px auto;background: red;}
+#author ul#team li h2 {color: #797a7a;margin: 15px 0 0 0;font-size: 25px;}
+#author ul#team li span {color: #575757;font-size: 12px;margin-top: -5px;display: block;}
+#author ul#team li p {text-shadow: 1px 1px 1px #000;font-size: 14px;line-height: 24px;}
+/**********************************************
+            form-teacher
+**********************************************/
+.form_teacher{direction: rtl;font-family: tanha;padding: 5px 8px 5px 5px;border: none;border-bottom: 1px solid #1ec4ee;margin: 10px;}
+.mrgin-atou{margin: auto;}
+.beugeraf{direction: rtl;border-radius: 7px;height: 100px;border: 1px solid #1ec4ee;}
+.submit-user {background: none;border: 2px solid #48d1f3;padding: 10px;border-radius: 10px;}.virayesh{background: none;border: 2px solid #48d1f3;padding: 10px 5px 5px 5px;border-radius: 10px;}
+.submit-user:hover {background: #48d1f3;color: white;}.virayesh:hover{background: #48d1f3;color: white;}
+.bg-head-in{background-image: url(../img/bg-farie.jpg);height: 70px;}
+.etelaeyeh samp{color: #20f5ae;}.color_li{color: #04e9a7;}.bg_gesh{color: #1ec4ee;}.text_d:focus,.text_d:hover{text-decoration: none;display: block;}
