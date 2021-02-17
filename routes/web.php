@@ -22,8 +22,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('login',[UserAuthController::class, 'login']);
-Route::get('home',HomeController::class);
-Route::get('1209/{url}',FariController::class);
-Route::get('InputLogin','Auth\LoginController@ajaxRequest');
-Route::post('InputLogin','Auth\LoginController@CheckUsername')->name('InputLogin.post');
-Route::post('logged_in', [LoginController::class, 'login'])->name('login');
+Route::get('register',[UserAuthController::class, 'register']);
+Route::post('create',[UserAuthController::class, 'create'])->name('auth.create');
+Route::post('check',[UserAuthController::class, 'check'])->name('auth.check');
+Route::get('profile',[UserAuthController::class, 'profile']);
+Route::get('logaut',[UserAuthController::class, 'logaut']);
+
+
+
