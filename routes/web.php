@@ -21,6 +21,8 @@ use App\Http\Controllers\UserAuthController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('home',HomeController::class);
+Route::get('1209/{url}',FariController::class);
 Route::get('login',[UserAuthController::class, 'login']);
 Route::get('register',[UserAuthController::class, 'register']);
 Route::post('create',[UserAuthController::class, 'create'])->name('auth.create');
