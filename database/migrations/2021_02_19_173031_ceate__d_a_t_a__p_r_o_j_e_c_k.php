@@ -14,7 +14,7 @@ class CeateDATAPROJECK extends Migration
     public function up()
     {
         //
-        Schema::create('DATA', function (Blueprint $table) {
+        Schema::create('data', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
             $table->string('text_header');
